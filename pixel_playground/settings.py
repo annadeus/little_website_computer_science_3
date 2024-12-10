@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'games.apps.GamesConfig',
     'profiles.apps.ProfilesConfig',
     'dashboard.apps.DashboardConfig',
-    'bug_reports.apps.BugReportsConfig'
+    'bug_reports.apps.BugReportsConfig',
 ]
 
 MIDDLEWARE = [

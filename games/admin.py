@@ -1,3 +1,8 @@
 from django.contrib import admin
+from games.models import Game, HighScore
 
-# Register your models here.
+class ProjectAdmin(admin.ModelAdmin):
+    pass
+
+admin.site.register(Game, ProjectAdmin)
+admin.site.register(HighScore, ProjectAdmin)
